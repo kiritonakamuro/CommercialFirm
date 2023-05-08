@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c5a41ea85ea141018e9c91df46ad9939" Name="Diagram1">
+        <EntityTypeShape EntityType="Commercial_FirmModel.Client" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.Fuel" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.Model" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.Order" Width="1.5" PointX="7.5" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.PriceList" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.Status" Width="1.5" PointX="5.25" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.Supplier" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.Transmission" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Commercial_FirmModel.Upholstery" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Client_Model" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Order_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Model_Fuel" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Model_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Model_Transmission" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Model_Upholstery" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Order_Model" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_PriceList_Model" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Order_PriceList" ManuallyRouted="false" />
+        <AssociationConnector Association="Commercial_FirmModel.FK_Order_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
