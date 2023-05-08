@@ -7,22 +7,26 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CommercialFirm
+namespace CommercialFirm.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Order
+    public partial class Supplier
     {
-        public int id { get; set; }
-        public int idClient { get; set; }
-        public int idPriceList { get; set; }
-        public int idModel { get; set; }
-        public int idStatus { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public Supplier()
+        {
+            this.Model = new HashSet<Model>();
+        }
     
-        public virtual Client Client { get; set; }
-        public virtual Model Model { get; set; }
-        public virtual PriceList PriceList { get; set; }
-        public virtual Status Status { get; set; }
+        public int id { get; set; }
+        public string Name { get; set; }
+        public string NumberPhone { get; set; }
+        public string Email { get; set; }
+        public string Website { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Model> Model { get; set; }
     }
 }

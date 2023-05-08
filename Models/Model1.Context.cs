@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CommercialFirm
+namespace CommercialFirm.Models
 {
     using System;
     using System.Data.Entity;
@@ -15,11 +15,19 @@ namespace CommercialFirm
     
     public partial class Commercial_FirmEntities : DbContext
     {
+        private static Commercial_FirmEntities _context;
         public Commercial_FirmEntities()
             : base("name=Commercial_FirmEntities")
         {
         }
-    
+        public static Commercial_FirmEntities GetContext()
+        {
+            if (_context == null)
+                _context = new Commercial_FirmEntities();
+
+            return _context;
+        }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();

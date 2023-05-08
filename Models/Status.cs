@@ -7,23 +7,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CommercialFirm
+namespace CommercialFirm.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Transmission
+    public partial class Status
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Transmission()
+        public Status()
         {
-            this.Model = new HashSet<Model>();
+            this.Order = new HashSet<Order>();
         }
     
         public int id { get; set; }
         public string Type { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Model> Model { get; set; }
+        public virtual ICollection<Order> Order { get; set; }
     }
 }

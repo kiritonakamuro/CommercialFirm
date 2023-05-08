@@ -7,29 +7,23 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CommercialFirm
+namespace CommercialFirm.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class PriceList
+    public partial class Upholstery
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public PriceList()
+        public Upholstery()
         {
-            this.Order = new HashSet<Order>();
+            this.Model = new HashSet<Model>();
         }
     
         public int id { get; set; }
-        public int idModel { get; set; }
-        public string YearOfIssue { get; set; }
-        public string Price { get; set; }
-        public string PresalePreparation { get; set; }
-        public string TransportationCosts { get; set; }
-        public string ContractNumber { get; set; }
+        public string Type { get; set; }
     
-        public virtual Model Model { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Order> Order { get; set; }
+        public virtual ICollection<Model> Model { get; set; }
     }
 }
