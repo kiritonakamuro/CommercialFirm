@@ -14,10 +14,10 @@
 
         <StackPanel Margin="0,3,0,0" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center">
             <Button Height="30" Margin="5 5 5 0" Content="Клиенты" Name="BtnClients" Click="BtnClients_Click"/>
-            <Button Height="30" Margin="5 5 5 0" Content="Модели" Name="BtnModels"  Click="BtnModels_Click"/>
-            <Button Height="30" Margin="5 5 5 0" Content="Поставщики" Name="BtnSuppliers" Click="BtnSuppliers_Click"/>
-            <Button Height="30" Margin="5 5 5 0" Content="Заказы" Name="BtnOrders" Click="BtnOrders_Click"/>
-            <Button Height="30" Margin="5 5 5 0" Content="Цены" Name="BtnPrice" Click="BtnPrice_Click"/>
+            <Button Height="30" Margin="5 5 5 0" Content="Модели" Name="BtnModels"/>
+            <Button Height="30" Margin="5 5 5 0" Content="Поставщики" Name="BtnSuppliers"/>
+            <Button Height="30" Margin="5 5 5 0" Content="Заказы" Name="BtnOrders"/>
+            <Button Height="30" Margin="5 5 5 0" Content="Цены" Name="BtnPrice"/>
         </StackPanel>
         <Frame Grid.Row="1" Grid.Column="1" Name="FrmMain" NavigationUIVisibility="Hidden" Margin="0 0 5 5"/>
     </Grid>

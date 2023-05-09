@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CommercialFirm.Classes;
 
 namespace CommercialFirm.Views
 {
@@ -23,6 +24,12 @@ namespace CommercialFirm.Views
         public ClientsPage()
         {
             InitializeComponent();
+            GridListClients.ItemsSource = DBConnect.connectDB.Client.ToList();
+        }
+
+        private void AddClient_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationClass.frmNav.Navigate(new AddEditClient());
         }
     }
 }
