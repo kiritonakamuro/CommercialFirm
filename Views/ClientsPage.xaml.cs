@@ -46,5 +46,26 @@ namespace CommercialFirm.Views
         {
             NavigationClass.frmNav.Navigate(new AddEditClient((sender as Button).DataContext as Client));
         }
+
+        private void BtnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            var clientsForRemoving = GridListClients.SelectedItems.Cast<Client>().ToList();
+
+            if(MessageBox.Show($"Вы точно хотите удалить следующие {clientsForRemoving.Count()} элементов?" , "Внимание" , 
+                MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    Commercial_FirmEntities.GetContext().Client.RemoveRange(clientsForRemoving);
+                    Commercial_FirmEntities.GetContext().SaveChanges();
+                    MessageBox.Show("Данные удалены!");
+                    GridListClients.ItemsSource = Commercial_FirmEntities.GetContext().Client.ToList();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message.ToString());
+                }
+            }
+        }
     }
 }
