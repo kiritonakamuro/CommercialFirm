@@ -23,9 +23,11 @@ namespace CommercialFirm.Views
     public partial class AddEditClient : Page
     {
         private Client _currentClient = new Client();
-        public AddEditClient()
+        public AddEditClient(Client selectedClient)
         {
             InitializeComponent();
+            if (selectedClient != null)
+                _currentClient = selectedClient;
             DataContext = _currentClient;
         }
 

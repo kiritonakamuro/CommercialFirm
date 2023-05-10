@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using CommercialFirm.Classes;
+using CommercialFirm.Models;
 
 namespace CommercialFirm.Views
 {
@@ -24,12 +25,26 @@ namespace CommercialFirm.Views
         public ClientsPage()
         {
             InitializeComponent();
-            GridListClients.ItemsSource = DBConnect.connectDB.Client.ToList();
+            
         }
 
         private void AddClient_Click(object sender, RoutedEventArgs e)
         {
-            NavigationClass.frmNav.Navigate(new AddEditClient());
+            NavigationClass.frmNav.Navigate(new AddEditClient(null));
+        }
+
+        private void Page_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (Visibility == Visibility.Visible)
+            {
+                Commercial_FirmEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                GridListClients.ItemsSource = Commercial_FirmEntities.GetContext().Client.ToList();
+            }
+        }
+
+        private void BtnEdit_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationClass.frmNav.Navigate(new AddEditClient((sender as Button).DataContext as Client));
         }
     }
 }
