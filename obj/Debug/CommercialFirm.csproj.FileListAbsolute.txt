@@ -25,3 +25,11 @@ C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\CommercialFirm.exe
 C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\CommercialFirm.pdb
 C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\AddEditClient.g.cs
 C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\AddEditClient.baml
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\AddEditSupplier.g.cs
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\SuppliersPage.g.cs
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\AddEditSupplier.baml
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\SuppliersPage.baml
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\AddEditModel.g.cs
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\ModelsPage.g.cs
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\AddEditModel.baml
+C:\Users\rodno\source\repos\CommercialFirm\obj\Debug\Views\ModelsPage.baml

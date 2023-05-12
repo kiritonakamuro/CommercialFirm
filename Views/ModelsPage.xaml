@@ -1,4 +1,4 @@
-﻿<Page x:Class="CommercialFirm.Views.ClientsPage"
+﻿<Page x:Class="CommercialFirm.Views.ModelsPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:CommercialFirm.Views"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="ClientsPage" IsVisibleChanged="Page_IsVisibleChanged">
+      Title="ModelsPage" IsVisibleChanged="Page_IsVisibleChanged">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -16,18 +16,19 @@
         <Grid Margin="5 0 0 0">
 
         </Grid>
-        <DataGrid  Background="Transparent" AutoGenerateColumns="False" IsReadOnly="True" Name="GridListClients" Grid.Row="0" >
+        <DataGrid  Background="Transparent" AutoGenerateColumns="False" IsReadOnly="True" Name="GridListModels" Grid.Row="0" >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Фамилия" Width="*" Binding="{Binding Surname}"/>
-                <DataGridTextColumn Header="Имя" Width="*" Binding="{Binding Name}"/>
-                <DataGridTextColumn Header="Отчество" Width="*" Binding="{Binding Patronymic}"/>
-                <DataGridTextColumn Header="Телефон" Width="*" Binding="{Binding NumberPhone}"/>
-                <DataGridTextColumn Header="Адрес" Width="*" Binding="{Binding Address}"/>
-                <DataGridTextColumn Header="Модель авто" Width="*" Binding="{Binding Model.Name}"/>
+                <DataGridTextColumn Header="Поставщик" Width="*" Binding="{Binding Supplier.Name}"/>
+                <DataGridTextColumn Header="Модель" Width="*" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Цвет" Width="*" Binding="{Binding Color}"/>
+                <DataGridTextColumn Header="Обивка" Width="*" Binding="{Binding Upholstery.Type}"/>
+                <DataGridTextColumn Header="Мощность в л.с." Width="*" Binding="{Binding EnginePower}"/>
+                <DataGridTextColumn Header="Коробкаа передач" Width="*" Binding="{Binding Transmission.Type}"/>
+                <DataGridTextColumn Header="Топливо" Width="*" Binding="{Binding Fuel.Type}"/>
                 <DataGridTemplateColumn Width="auto">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <Button Content="Редактировать" Name="BtnEdit" Click="BtnEdit_Click">
+                            <Button Content="Редактировать">
 
                             </Button>
                         </DataTemplate>
@@ -36,7 +37,7 @@
             </DataGrid.Columns>
         </DataGrid>
         <Grid Grid.Row="1">
-            <Button Content="Добавить пользователя" Click="AddClient_Click" Name="AddClient" Height="30" Width="150" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0 20 0 0">
+            <Button Content="Добавить модель" Name="AddModel" Click="AddModel_Click" Height="30" Width="150" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0 20 0 0">
 
             </Button>
             <Button Height="30" Content="Удалить" Width="150" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 20 0 0" Name="BtnDelete" Click="BtnDelete_Click">

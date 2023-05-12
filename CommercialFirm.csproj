@@ -104,8 +104,20 @@
     <Compile Include="Views\AddEditClient.xaml.cs">
       <DependentUpon>AddEditClient.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\AddEditModel.xaml.cs">
+      <DependentUpon>AddEditModel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AddEditSupplier.xaml.cs">
+      <DependentUpon>AddEditSupplier.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ClientsPage.xaml.cs">
       <DependentUpon>ClientsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ModelsPage.xaml.cs">
+      <DependentUpon>ModelsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SuppliersPage.xaml.cs">
+      <DependentUpon>SuppliersPage.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -123,7 +135,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\AddEditModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddEditSupplier.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ClientsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ModelsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\SuppliersPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

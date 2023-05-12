@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\rodno\source\repos\CommercialFirm\App.xaml
-3648775478
+71361113776
 2-1223955081
-22850576883
+261502999453
 181940052525
-MainWindow.xaml;Views\AddEditClient.xaml;Views\ClientsPage.xaml;
+MainWindow.xaml;Views\AddEditClient.xaml;Views\AddEditModel.xaml;Views\AddEditSupplier.xaml;Views\ClientsPage.xaml;Views\ModelsPage.xaml;Views\SuppliersPage.xaml;
 
 False
 
