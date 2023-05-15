@@ -42,5 +42,10 @@ namespace CommercialFirm
         {
             NavigationClass.frmNav.Navigate(new ModelsPage());
         }
+
+        private void BtnOrders_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationClass.frmNav.Navigate(new OrdersPage());
+        }
     }
 }

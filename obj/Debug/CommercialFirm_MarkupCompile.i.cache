@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\student\Source\Repos\CommercialFirm\App.xaml
-71361113776
+92090270885
 2-1223955081
-27-579089165
+29-1397648858
 130-1855778464
-MainWindow.xaml;Views\AddEditClient.xaml;Views\AddEditModel.xaml;Views\AddEditSupplier.xaml;Views\ClientsPage.xaml;Views\ModelsPage.xaml;Views\SuppliersPage.xaml;
+MainWindow.xaml;Views\AddEditClient.xaml;Views\AddEditModel.xaml;Views\AddEditOrder.xaml;Views\AddEditSupplier.xaml;Views\ClientsPage.xaml;Views\ModelsPage.xaml;Views\OrdersPage.xaml;Views\SuppliersPage.xaml;
 
 True
 

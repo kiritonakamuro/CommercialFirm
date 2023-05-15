@@ -59,6 +59,14 @@ namespace CommercialFirm.Views {
         
         #line 42 "..\..\..\Views\SuppliersPage.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.TextBox TxbSearch;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 45 "..\..\..\Views\SuppliersPage.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Button BtnDeleteSupplier;
         
         #line default
@@ -115,9 +123,18 @@ namespace CommercialFirm.Views {
             #line hidden
             return;
             case 5:
-            this.BtnDeleteSupplier = ((System.Windows.Controls.Button)(target));
+            this.TxbSearch = ((System.Windows.Controls.TextBox)(target));
             
             #line 42 "..\..\..\Views\SuppliersPage.xaml"
+            this.TxbSearch.TextChanged += new System.Windows.Controls.TextChangedEventHandler(this.TxbSearch_TextChanged);
+            
+            #line default
+            #line hidden
+            return;
+            case 6:
+            this.BtnDeleteSupplier = ((System.Windows.Controls.Button)(target));
+            
+            #line 45 "..\..\..\Views\SuppliersPage.xaml"
             this.BtnDeleteSupplier.Click += new System.Windows.RoutedEventHandler(this.BtnDeleteSupplier_Click);
             
             #line default

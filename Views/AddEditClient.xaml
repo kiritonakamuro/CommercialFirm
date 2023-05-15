@@ -4,6 +4,7 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:CommercialFirm.Views"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddEditClient">
@@ -27,11 +28,11 @@
         <TextBlock Grid.Row="2" Text="Отчество"/>
         <TextBlock Grid.Row="3" Text="Номер телефона"/>
         <TextBlock Grid.Row="4" Text="Адрес"/>
-        <TextBox Text="{Binding Surname}" Grid.Column="1" Grid.Row="0"/>
-        <TextBox Text="{Binding Name}" Grid.Column="1" Grid.Row="1"/>
-        <TextBox Text="{Binding Patronymic}" Grid.Column="1" Grid.Row="2"/>
-        <TextBox Text="{Binding NumberPhone}" Grid.Column="1" Grid.Row="3"/>
-        <TextBox Text="{Binding Address}" Grid.Column="1" Grid.Row="4"/>
+        <TextBox Text="{Binding Surname}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" BorderBrush="Black" Grid.Column="1" Grid.Row="0"/>
+        <TextBox Text="{Binding Name}" BorderBrush="Black" Grid.Column="1" Grid.Row="1"/>
+        <TextBox Text="{Binding Patronymic}" BorderBrush="Black" Grid.Column="1" Grid.Row="2"/>
+        <TextBox Text="{Binding NumberPhone}" BorderBrush="Black" Grid.Column="1" Grid.Row="3"/>
+        <TextBox Text="{Binding Address}" BorderBrush="Black" Grid.Column="1" Grid.Row="4"/>
         <Button Grid.Row="5" Grid.Column="1" Height="40" Width="200" Content="Сохранить" Name="Save" Click="Save_Click"/>
     </Grid>
 </Page>

@@ -135,3 +135,5 @@ C:\Users\student\Source\Repos\CommercialFirm\bin\Debug\MaterialDesignThemes.Wpf.
 C:\Users\student\Source\Repos\CommercialFirm\bin\Debug\Microsoft.Xaml.Behaviors.pdb
 C:\Users\student\Source\Repos\CommercialFirm\bin\Debug\Microsoft.Xaml.Behaviors.xml
 C:\Users\student\Source\Repos\CommercialFirm\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\OrdersPage.g.cs
+C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\OrdersPage.baml

@@ -142,6 +142,9 @@
     <Compile Include="Views\ModelsPage.xaml.cs">
       <DependentUpon>ModelsPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\OrdersPage.xaml.cs">
+      <DependentUpon>OrdersPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\SuppliersPage.xaml.cs">
       <DependentUpon>SuppliersPage.xaml</DependentUpon>
     </Compile>
@@ -174,6 +177,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\ModelsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OrdersPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,9 +23,12 @@ namespace CommercialFirm.Views
     /// </summary>
     public partial class ModelsPage : Page
     {
+        private ObservableCollection<Model> filteredModels;
+        private ObservableCollection<Model> models;
         public ModelsPage()
         {
             InitializeComponent();
+
         }
 
         private void AddModel_Click(object sender, RoutedEventArgs e)
@@ -45,6 +49,11 @@ namespace CommercialFirm.Views
                 Commercial_FirmEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
                 GridListModels.ItemsSource = Commercial_FirmEntities.GetContext().Model.ToList();
             }
+        }
+
+        private void TxbSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

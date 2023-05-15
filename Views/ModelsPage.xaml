@@ -23,7 +23,7 @@
                 <DataGridTextColumn Header="Цвет" Width="*" Binding="{Binding Color}"/>
                 <DataGridTextColumn Header="Обивка" Width="*" Binding="{Binding Upholstery.Type}"/>
                 <DataGridTextColumn Header="Мощность в л.с." Width="*" Binding="{Binding EnginePower}"/>
-                <DataGridTextColumn Header="Коробкаа передач" Width="*" Binding="{Binding Transmission.Type}"/>
+                <DataGridTextColumn Header="Коробка передач" Width="*" Binding="{Binding Transmission.Type}"/>
                 <DataGridTextColumn Header="Топливо" Width="*" Binding="{Binding Fuel.Type}"/>
                 <DataGridTemplateColumn Width="auto">
                     <DataGridTemplateColumn.CellTemplate>
@@ -37,9 +37,12 @@
             </DataGrid.Columns>
         </DataGrid>
         <Grid Grid.Row="1">
-            <Button Content="Добавить модель" Name="AddModel" Click="AddModel_Click" Height="30" Width="150" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0 20 0 0">
+            <Button Content="Добавить модель" Name="AddModel" Click="AddModel_Click" Height="30" Width="200" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0 20 0 0">
 
             </Button>
+            <TextBox Height="30" Width="400" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="50 20 0 0" Name="TxbSearch" TextChanged="TxbSearch_TextChanged"  Tag="Поиск">
+
+            </TextBox>
             <Button Height="30" Content="Удалить" Width="150" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 20 0 0" Name="BtnDelete" Click="BtnDelete_Click">
 
             </Button>
