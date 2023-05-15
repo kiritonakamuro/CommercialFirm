@@ -133,6 +133,9 @@
     <Compile Include="Views\AddEditModel.xaml.cs">
       <DependentUpon>AddEditModel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\AddEditOrder.xaml.cs">
+      <DependentUpon>AddEditOrder.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\AddEditSupplier.xaml.cs">
       <DependentUpon>AddEditSupplier.xaml</DependentUpon>
     </Compile>
@@ -165,6 +168,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\AddEditModel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AddEditOrder.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

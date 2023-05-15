@@ -26,7 +26,6 @@
             <Button Height="30" Margin="5 5 5 0" Content="Модели" Name="BtnModels" Click="BtnModels_Click"/>
             <Button Height="30" Margin="5 5 5 0" Content="Поставщики" Name="BtnSuppliers" Click="BtnSuppliers_Click"/>
             <Button Height="30" Margin="5 5 5 0" Content="Заказы клиентов" Name="BtnOrders" Click="BtnOrders_Click"/>
-            <Button Height="30" Margin="5 5 5 0" Content="-" Name="BtnPrice"/>
         </StackPanel>
         <Frame Grid.Row="1" Grid.Column="1" Name="FrmMain" NavigationUIVisibility="Hidden" Margin="0 0 5 5"/>
     </Grid>

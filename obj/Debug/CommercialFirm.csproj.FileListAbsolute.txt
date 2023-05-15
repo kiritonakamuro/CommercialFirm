@@ -137,3 +137,5 @@ C:\Users\student\Source\Repos\CommercialFirm\bin\Debug\Microsoft.Xaml.Behaviors.
 C:\Users\student\Source\Repos\CommercialFirm\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
 C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\OrdersPage.g.cs
 C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\OrdersPage.baml
+C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\AddEditOrder.g.cs
+C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\AddEditOrder.baml
