@@ -23,7 +23,6 @@
                 <DataGridTextColumn Header="Отчество" Width="*" Binding="{Binding Patronymic}"/>
                 <DataGridTextColumn Header="Телефон" Width="*" Binding="{Binding NumberPhone}"/>
                 <DataGridTextColumn Header="Адрес" Width="*" Binding="{Binding Address}"/>
-                <DataGridTextColumn Header="Модель авто" Width="*" Binding="{Binding Model.Name}"/>
                 <DataGridTemplateColumn Width="auto">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CommercialFirm.Classes;
 using CommercialFirm.Models;
 
 namespace CommercialFirm.Views
@@ -28,6 +29,7 @@ namespace CommercialFirm.Views
 
         private void AddModel_Click(object sender, RoutedEventArgs e)
         {
+            NavigationClass.frmNav.Navigate(new AddEditModel());
 
         }
 
