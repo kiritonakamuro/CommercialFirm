@@ -16,7 +16,7 @@
         <Grid Margin="5 0 0 0">
 
         </Grid>
-        <DataGrid  Background="Transparent" AutoGenerateColumns="False" IsReadOnly="True" Name="GridListSuppliers" Grid.Row="0" ItemsSource="{Binding Website}">
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" Name="GridListSuppliers" Grid.Row="0" ItemsSource="{Binding Website}">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Фирма" Width="*" Binding="{Binding Name}"/>
                 <DataGridTextColumn Header="Телефон" Width="*" Binding="{Binding NumberPhone}"/>

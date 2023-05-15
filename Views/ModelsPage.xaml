@@ -16,7 +16,7 @@
         <Grid Margin="5 0 0 0">
 
         </Grid>
-        <DataGrid  Background="Transparent" AutoGenerateColumns="False" IsReadOnly="True" Name="GridListModels" Grid.Row="0" >
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" Name="GridListModels" Grid.Row="0" >
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Поставщик" Width="*" Binding="{Binding Supplier.Name}"/>
                 <DataGridTextColumn Header="Модель" Width="*" Binding="{Binding Name}"/>
