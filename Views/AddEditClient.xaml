@@ -23,12 +23,12 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Text="Фамилия"/>
-        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="1"  Text="Имя"/>
-        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="2" Text="Отчество"/>
-        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="3" Text="Номер телефона"/>
-        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="4" Text="Адрес"/>
-        <TextBox VerticalAlignment="Bottom" Height="10" Foreground="White" Text="{Binding Surname}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" BorderBrush="Black" Grid.Column="1" Grid.Row="0"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Text="Фамилия"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="1"  Text="Имя"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="2" Text="Отчество"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="3" Text="Номер телефона"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="4" Text="Адрес"/>
+        <TextBox Foreground="White" Text="{Binding Surname}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" BorderBrush="Black" Grid.Column="1" Grid.Row="0"/>
         <TextBox Foreground="White" Text="{Binding Name}" BorderBrush="Black" Grid.Column="1" Grid.Row="1"/>
         <TextBox Foreground="White" Text="{Binding Patronymic}" BorderBrush="Black" Grid.Column="1" Grid.Row="2"/>
         <TextBox Foreground="White" Text="{Binding NumberPhone}" BorderBrush="Black" Grid.Column="1" Grid.Row="3"/>

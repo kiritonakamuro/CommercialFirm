@@ -24,14 +24,14 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0"  Text="Поставщик"/>
-        <TextBlock Grid.Row="1" Text="Наименование модели"/>
-        <TextBlock Grid.Row="2" Text="Цвет"/>
-        <TextBlock Grid.Row="3" Text="Мощность в л.с."/>
-        <TextBlock Grid.Row="4" Text="Обивка"/>
-        <TextBlock Grid.Row="5" Text="Коробка передач"/>
-        <TextBlock Grid.Row="6" Text="Тип топлива"/>
-        <ComboBox  Grid.Column="1" Grid.Row="0" Name="ComboSupplier"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="0"  Text="Поставщик"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="1" Text="Наименование модели"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="2" Text="Цвет"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="3" Text="Мощность в л.с."/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="4" Text="Обивка"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="5" Text="Коробка передач"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Center" Foreground="White" Grid.Row="6" Text="Тип топлива"/>
+        <ComboBox Grid.Column="1" Grid.Row="0" Name="ComboSupplier"/>
         <TextBox Grid.Column="1" Grid.Row="1" Name="TxbNameModel"/>
         <TextBox Grid.Column="1" Grid.Row="2" Name="TxbColor"/>
         <TextBox Grid.Column="1" Grid.Row="3" Name="TxbEP"/>
