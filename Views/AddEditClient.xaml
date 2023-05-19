@@ -23,16 +23,16 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Фамилия"/>
-        <TextBlock Grid.Row="1"  Text="Имя"/>
-        <TextBlock Grid.Row="2" Text="Отчество"/>
-        <TextBlock Grid.Row="3" Text="Номер телефона"/>
-        <TextBlock Grid.Row="4" Text="Адрес"/>
-        <TextBox Text="{Binding Surname}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" BorderBrush="Black" Grid.Column="1" Grid.Row="0"/>
-        <TextBox Text="{Binding Name}" BorderBrush="Black" Grid.Column="1" Grid.Row="1"/>
-        <TextBox Text="{Binding Patronymic}" BorderBrush="Black" Grid.Column="1" Grid.Row="2"/>
-        <TextBox Text="{Binding NumberPhone}" BorderBrush="Black" Grid.Column="1" Grid.Row="3"/>
-        <TextBox Text="{Binding Address}" BorderBrush="Black" Grid.Column="1" Grid.Row="4"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Text="Фамилия"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="1"  Text="Имя"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="2" Text="Отчество"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="3" Text="Номер телефона"/>
+        <TextBlock Margin="50 0 0 0" VerticalAlignment="Bottom" Foreground="White" Grid.Row="4" Text="Адрес"/>
+        <TextBox VerticalAlignment="Bottom" Height="10" Foreground="White" Text="{Binding Surname}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" BorderBrush="Black" Grid.Column="1" Grid.Row="0"/>
+        <TextBox Foreground="White" Text="{Binding Name}" BorderBrush="Black" Grid.Column="1" Grid.Row="1"/>
+        <TextBox Foreground="White" Text="{Binding Patronymic}" BorderBrush="Black" Grid.Column="1" Grid.Row="2"/>
+        <TextBox Foreground="White" Text="{Binding NumberPhone}" BorderBrush="Black" Grid.Column="1" Grid.Row="3"/>
+        <TextBox Foreground="White" Text="{Binding Address}" BorderBrush="Black" Grid.Column="1" Grid.Row="4"/>
         <Button Grid.Row="5" Grid.Column="1" Height="40" Width="200" Content="Сохранить" Name="Save" Click="Save_Click"/>
     </Grid>
 </Page>

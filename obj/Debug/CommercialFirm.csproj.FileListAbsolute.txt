@@ -139,3 +139,17 @@ C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\OrdersPage.g.cs
 C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\OrdersPage.baml
 C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\AddEditOrder.g.cs
 C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\Views\AddEditOrder.baml
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\MaterialDesignColors.dll
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\MaterialDesignColors.pdb
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\rodno\Source\Repos\CommercialFirms\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\rodno\Source\Repos\CommercialFirms\obj\Debug\Views\AddEditOrder.g.cs
+C:\Users\rodno\Source\Repos\CommercialFirms\obj\Debug\Views\OrdersPage.g.cs
+C:\Users\rodno\Source\Repos\CommercialFirms\obj\Debug\App.baml
+C:\Users\rodno\Source\Repos\CommercialFirms\obj\Debug\Views\AddEditOrder.baml
+C:\Users\rodno\Source\Repos\CommercialFirms\obj\Debug\Views\OrdersPage.baml

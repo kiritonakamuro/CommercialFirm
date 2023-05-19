@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\student\Source\Repos\CommercialFirm\obj\Debug\
+C:\Users\rodno\Source\Repos\CommercialFirms\obj\Debug\
 CommercialFirm
 none
 false
 DEBUG;TRACE
-C:\Users\student\Source\Repos\CommercialFirm\App.xaml
+C:\Users\rodno\Source\Repos\CommercialFirms\App.xaml
 92090270885
 2-1223955081
 28684439760
-130-1855778464
+130-365233884
 MainWindow.xaml;Views\AddEditClient.xaml;Views\AddEditModel.xaml;Views\AddEditOrder.xaml;Views\AddEditSupplier.xaml;Views\ClientsPage.xaml;Views\ModelsPage.xaml;Views\OrdersPage.xaml;Views\SuppliersPage.xaml;
 
 False
